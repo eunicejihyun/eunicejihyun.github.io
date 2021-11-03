@@ -18,7 +18,8 @@ header {
 
 #footer {
     text-align: center;
-    bottom: 20px;
+    padding: 13px;
+    font-size: 13px;
 }
 
 @media (max-width: 5in) {
@@ -105,7 +106,7 @@ header {
 #menu
 {
   position: absolute;
-  width: 300px;
+  width: 320px;
   height: 100vh;
   margin: -100px 0 0 -50px;
   padding: 45px;
