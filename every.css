@@ -3,6 +3,17 @@ Basic Hamburger Menu Source: https://codepen.io/erikterwan/pen/EVzeRP
 Hover Effect Source: https://ianlunn.github.io/Hover/
 */
 
+a {
+  color: #F38FA9;
+  font-weight: bold;
+}
+
+a:hover {
+  background: #FCE4EA;
+  color: black;
+  font-weight: normal;
+}
+
 header {
   background-color: transparent;
   position: fixed;
@@ -18,7 +29,7 @@ header {
 
 #footer {
     text-align: center;
-    padding: 13px;
+    padding-top: 30px;
     font-size: 13px;
 }
 
@@ -42,6 +53,7 @@ header {
   text-decoration: none;
   color: black;
   transition: color 0.3s ease;
+  font-weight: bold;
 }
 
 #menuToggle input {
@@ -111,7 +123,6 @@ header {
   margin: -100px 0 0 -50px;
   padding: 45px;
   padding-top: 125px;
-  font-weight: bold;
   background: white;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
