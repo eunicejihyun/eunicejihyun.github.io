@@ -1,0 +1,13 @@
+/*this is an element*/
+body * {
+	color:                    hsla(210, 100%, 100%, 0.88) !important;
+	background:               hsla(210, 100%,  50%, 0.33) !important;
+	outline:    0.25rem solid hsla(210, 100%, 100%, 0.50) !important;
+}
+
+/*this is an attribute or class as noted by the dot in front*/
+.debug-center {
+    display: flex;
+    justify-content: center; /*centering horizontally*/
+    align-items: center; /*centering vertically*/
+}
