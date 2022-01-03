@@ -64,11 +64,12 @@ a:hover {
     border-collapse: collapse;
     border:1px solid #FCE4EA;
     text-align: center;
-}
-
-table, th, td {
     padding: 2px 17px 2px 17px;
     margin: 15px auto 15px auto;
+}
+
+.archive, .archive td {
+    text-align: center;
     vertical-align: top;
 }
 
