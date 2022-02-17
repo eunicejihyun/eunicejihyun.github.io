@@ -8,7 +8,7 @@
 /* NAVIGATION *****************************************************************/
 .logo {
   display: inline-block;
-  padding-top: 0.6rem;
+  padding: 0.6rem 0.9rem 0;
   vertical-align: top;
 }
 
@@ -29,7 +29,7 @@
   color: #303030;
   display: inline-block;
   font-weight: bold;
-  padding: 0.75rem 0 0 2rem;
+  padding: 0.75rem 0.9rem 0;
 }
 
 .navItem:hover, .navItem:active, .navItem:focus {
