@@ -1,61 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>about</title>
-    <link rel ="icon" href ="images/logo.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;600&family=Quicksand:wght@400;600&display=swap">
-    <link rel="stylesheet" href = "css/reset.css">
-    <link rel="stylesheet" href = "css/every.css">
-    <link rel="stylesheet" href = "css/home-image.css">
-    <link rel="stylesheet" href = "css/article.css">
+  <meta charset="UTF-8">
+  <title>about</title>
+  <link rel="icon" href="images/logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="(Some of) Eunice's thoughts reside here.">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Assistant&family=Quicksand&display=swap">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/every.css">
+  <link rel="stylesheet" href="css/article.css">
 </head>
 
 <body>
 
-    <div id = "logo">
-            <img src = "images/logo.png" height = 30rem width = 30rem>
-    </div>
+  <nav class="navigation">
+    <a class="logo" href="./"><img src="images/logo.png" height=30rem alt="logo"></a>
+    <a class="navItem" href="about">about</a>
+    <a class="navItem" href="archive">archive</a>
+    <a class="navItem" href="2022">ramblings</a>
+  </nav>
 
-    <nav role="navigation">
-      <div id="menuToggle">
-        <input type="checkbox" />
-        <span></span>
-        <span></span>
-        <span></span>
-          <ul id="menu">
-            <center>where to?</center>
-              <a href="./"><li>home</li></a>
-            <a href="about"><li>about</li></a>
-              <a href="archive"><li>archive</li></a>
-            <a href="2022"><li>ramblings</li></a>
-              <img src = "images/navYonggi.png" height = auto width = 275px>
-        </ul>
-      </div>
-    </nav>
+  <article>
+    <figure class=size-1>
+      <img src="images/eunicorn.jpg" alt="Eunice on a Unicorn">
+    </figure>
 
+    <p>Welcome to my world! Dress code is casual.</p>
 
+    <p>Here you’ll find a collection of run-on sentences with the occasional grammatical error.
+      Unlike plogging, which has positive externalities, this blog is unlikely to affect your life.
+      All photos and opinions are my own.</p>
 
-    <article>
-        <figure class = size-1>
-                <img src = "images/eunicorn.jpg"/>
-        </figure>
+    <p>Find me elsewhere on the Internet via
+      <a href="https://linkedin.com/in/eunicejihyun" target="_blank" rel="noopener noreferrer">LinkedIn</a>,
+      <a href="https://twitter.com/eunicejihyun" target="_blank" rel="noopener noreferrer">Twitter</a>, or
+      <a href="https://github.com/eunicejihyun/LearningPython/tree/master/100DaysOfCode" target="_blank" rel="noopener noreferrer">GitHub</a>.
+    </p>
+  </article>
 
-        <p>Welcome to my world! Dress code is casual.</p>
-
-        <p>Here you’ll find a collection of run-on sentences with the occasional grammatical error.
-            Unlike plogging, which has positive externalities, this blog is unlikely to affect your life.
-            All photos and opinions are my own.</p>
-
-        <p>Find me elsewhere on the Internet via
-            <a href = "https://linkedin.com/in/eunicejihyun" target="_blank" rel="noopener noreferrer">LinkedIn</a>,
-            <a href = "https://twitter.com/eunicejihyun" target="_blank" rel="noopener noreferrer">Twitter</a>, or
-            <a href = "https://github.com/eunicejihyun/LearningPython/tree/master/100DaysOfCode" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
-    </article>
-
-    <div id = "footer"> Eunice Kim © 2022 </div>
+  <div class="footer"> Eunice Kim © 2022 </div>
 
 </body>
+
 </html>

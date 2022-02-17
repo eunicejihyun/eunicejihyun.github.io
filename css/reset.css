@@ -1,13 +1,13 @@
-:root { font: 17px/1.7 "Quicksand", sans-serif; }
+:root {
+  font: 16.5px/1.7 "Quicksand", sans-serif;
+}
 
 body,
 body * {
-	margin:          unset;
-	box-sizing:      unset;
-	padding:         unset;
-	font-size:       unset;
-	color:           #303030;
-	text-decoration: unset;
+  margin: unset;
+  box-sizing: unset;
+  padding: unset;
+  font-size: unset;
+  color: #303030;
+  text-decoration: unset;
 }
-
-
