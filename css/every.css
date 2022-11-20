@@ -5,6 +5,10 @@
   font-size: 0.7rem;
 }
 
+.footer-icon {
+  padding: 0 0.3rem;
+}
+
 /* NAVIGATION *****************************************************************/
 .logo {
   display: inline-block;
