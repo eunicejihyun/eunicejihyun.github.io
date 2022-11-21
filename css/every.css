@@ -1,3 +1,18 @@
+:root {
+  font: 16.5px/1.7 "Quicksand", sans-serif;
+}
+
+body,
+body * {
+  margin: unset;
+  box-sizing: unset;
+  padding: unset;
+  font-size: unset;
+  color: #303030;
+  text-decoration: unset;
+}
+
+
 /* FOOTER *********************************************************************/
 .footer {
   text-align: center;
@@ -36,7 +51,9 @@
   padding: 0.75rem 0.9rem 0;
 }
 
-.navItem:hover, .navItem:active, .navItem:focus {
+.navItem:hover,
+.navItem:active,
+.navItem:focus {
   background: none;
   color: #7A002E;
 }
