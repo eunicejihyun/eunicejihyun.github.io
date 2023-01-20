@@ -1,6 +1,8 @@
 
 // import readingTime from 'reading-time';
 
+export const prerender = true
+
 export async function load({ params }) {
   const post = await import(`/src/lib/posts/${params.slug}.md`)
   const { title, date, tags } = post.metadata

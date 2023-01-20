@@ -5,7 +5,10 @@ import { mdsvex } from 'mdsvex';
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
-		adapter: adapter()
+		adapter: adapter(),
+		prerender: {
+			entries: ["/ramblings/"]
+		}
 	},
 
 	extensions: ['.svelte', '.md'],
@@ -15,7 +18,7 @@ const config = {
 		mdsvex({
 			extensions: ['.md']
 		  })
-	],
+	]
 };
 
 export default config;

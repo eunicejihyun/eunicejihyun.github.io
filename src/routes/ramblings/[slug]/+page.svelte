@@ -1,5 +1,5 @@
 <script>
-	import Tags from '../../../lib/components/Tags.svelte';
+	import Tags from '$lib/components/Tags.svelte';
 	export let data;
 	const { title, content, date, tags } = data;
 </script>
