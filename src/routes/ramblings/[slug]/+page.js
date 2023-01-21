@@ -1,19 +1,28 @@
+const postData = import.meta.glob('/src/lib/posts/*.md', { eager: true });
 
-// import readingTime from 'reading-time';
+const allPosts = [];
+for (let path in postData) {
+  const post = postData[path];
+  const slug = path.slice(15, -3);
+  const postObj = { post, slug };
+  allPosts.push(postObj);
+}
 
-export const prerender = true
 
-export async function load({ params }) {
-  const post = await import(`/src/lib/posts/${params.slug}.md`)
-  const { title, date, tags } = post.metadata
-  const content = post.default
+export function load({ params }) {
+  const { slug } = params;
 
-  // const time = readingTime(content).text
+  const requestedPost = allPosts.find((post) => {
+    return post.slug === slug;
+  });
+
+  const { title, date, tags } = requestedPost.post.metadata
+  const content = requestedPost.post.default
 
   return {
     content,
     title,
     date,
     tags
-  }
+  };
 }

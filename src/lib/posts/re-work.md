@@ -11,10 +11,10 @@ Confident I wasn’t alone in how I felt, I reached out to my network and asked 
 
 There were four main questions that I wanted to answer.
 
-*   [Why do we leave the jobs we’ve chosen?](ramblings/re-work#leavingjobs)
-*   [What does it mean to love a job and is it important?](ramblings/re-work#lovingjobs)
-*   [What is a calling and should we pursue it?](ramblings/re-work#calling)
-*   [How can we find jobs that are really the right fit for us?](ramblings/re-work#rightfit)
+*   [Why do we leave the jobs we’ve chosen?](re-work#leavingjobs)
+*   [What does it mean to love a job and is it important?](re-work#lovingjobs)
+*   [What is a calling and should we pursue it?](re-work#calling)
+*   [How can we find jobs that are really the right fit for us?](re-work#rightfit)
 
 I’ll share the insights and stories that came out of those conversations to help you build your own patchwork philosophy on work. I hope they will spark healthy conversations about the questions that we silently ponder on Sunday evenings or while looking out the window of a commuter bus.
 
@@ -23,7 +23,7 @@ Please note: All have given me permission to share their thoughts and will remai
 <h2 id="leavingjobs">leaving jobs</h2>
 ------------
 
-The last few lines of my blog post [_is this adulting?_](ramblings/adulting) read, “I love my new job… Joy is ever present in my life.” Despite the challenging transition at the time, I was learning a lot and collaborating with awesome people. It wasn’t thrilling everyday, but there was plenty to enjoy, and I genuinely loved it.
+The last few lines of my blog post [_is this adulting?_](adulting) read, “I love my new job… Joy is ever present in my life.” Despite the challenging transition at the time, I was learning a lot and collaborating with awesome people. It wasn’t thrilling everyday, but there was plenty to enjoy, and I genuinely loved it.
 
 Ten months later, I quit.
 
