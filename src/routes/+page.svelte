@@ -3,5 +3,5 @@
 </script>
 
 <article>
-	<Image size="size-3" fileName="desktopYonggi.gif" alt="Yonggi talking in landscape" />
+	<Image size="size-3" fileName="cooler_than_you.png" alt="2-year-old Eunice ready to steal yo girl." />
 </article>

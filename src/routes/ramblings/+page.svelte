@@ -1,7 +1,7 @@
 <!-- /archive -->
 <script>
-	import Image from '$lib/components/Image.svelte';
-	import { TabContent, TabPane, Col, Row } from 'sveltestrap';
+	import Image from "$lib/components/Image.svelte";
+	import { TabContent, TabPane, Col, Row } from "sveltestrap";
 	export let data;
 	const allTags = data.posts
 		.map((post) => post.tags)
@@ -14,19 +14,24 @@
 </svelte:head>
 
 <article>
-	<Image size="size-1" fileName="archive.jpg" alt="Yonggi at Golden Hour" />
+	<Image
+		size="size-2"
+		fileName="desktopYonggi.gif"
+		alt="Yonggi talking in landscape"
+	/>
 
 	<p>
-		Here you’ll find a collection of run-on sentences with the occasional grammatical error. Unlike
-		plogging, which has positive externalities, this blog is unlikely to affect your life.
+		Welcome to my world! Here you’ll find a collection of run-on sentences
+		with the occasional grammatical error. Unlike plogging, which has
+		positive externalities, this blog is unlikely to affect your life.
 	</p>
-	<center class="little">My favorite posts are denoted with an asterisk.</center>
 
 	<div class="postHouse">
 		<TabContent pills>
 			{#each uniqueTags as tag, index}
 				{#if index === 3}
 					<TabPane tabId={tag} tab="#{tag}" active>
+						<center class="little">*My favorite posts are denoted with an asterisk</center>
 						<Row>
 							{#each data.posts as post}
 								{#if post.tags.includes(tag)}
@@ -49,6 +54,7 @@
 					</TabPane>
 				{:else}
 					<TabPane tabId={tag} tab="#{tag}">
+						<center class="little">*My favorite posts are denoted with an asterisk</center>
 						<Row>
 							{#each data.posts as post}
 								{#if post.tags.includes(tag)}

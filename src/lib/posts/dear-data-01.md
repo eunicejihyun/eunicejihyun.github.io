@@ -19,7 +19,7 @@ I had worked with data extensively before, but here was this fresh take on data 
 
 Enter Ben Goldberg.
 
-Ben and I were colleagues at thredUP and we started a short-lived book club together. Although we’ve never met in-person, it was an absolute no-brainer to invite him to “Dear Data” with me (especially after the first person I asked didn’t reply). In all seriousness, Ben is just that kind of person – he’s accountable and always willing to dive into something new. And if it’s not completely obvious from [his postcard](dear-data-01#bg01), he is thoughtful, analytical, and puts an impressive amount of effort into even the littlest of things.
+Ben and I were colleagues at thredUP and we started a short-lived book club together. Although we’ve never met in-person, it was an absolute no-brainer to invite him to “Dear Data” with me (especially after the first person I asked didn’t reply). In all seriousness, Ben is just that kind of person – he’s accountable and always willing to dive into something new. And if it’s not completely obvious from [his postcard](/ramblings/dear-data-01#bg01), he is thoughtful, analytical, and puts an impressive amount of effort into even the littlest of things.
 
 I present to you, our first edition of Dear Data postcards.
 

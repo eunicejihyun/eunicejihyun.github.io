@@ -35,17 +35,6 @@ article * {
 }
 
 
-figcaption {
-    display: flex;
-    justify-content: center;
-}
-
-figcaption p {
-    font: 400 1.0rem/1.5;
-    color: hsl(000, 000%, 83%);
-}
-
-
 h1 {
     font: 600 1.7rem/1.2 'Assistant', sans-serif;
     color: #3A4664;
@@ -60,15 +49,12 @@ h2 {
     padding-top: 3.5rem;
 }
 
-
-
 time {
     font: 400 1.0rem;
     color: gray;
     text-align: right;
     padding: 0;
 }
-
 
 
 ul {
@@ -111,7 +97,7 @@ li.active {
     background-color: black;
 }
 
-/* ARCHIVE */
+/* RAMBLINGS */
 .nav-link,
 .nav-item {
     border-radius: 25px !important;
@@ -127,10 +113,14 @@ li.active {
     background-color: #7A002E !important;
 }
 
+.nav-pills {
+    margin: 0;
+}
+
 .nav-item {
     background-color: #FCE4EA;
     border-radius: 25px !important;
-    margin: 5px 5px;
+    margin: 10px 10px 0 0;
     padding: 0;
     font-size: 0.8rem;
 }

@@ -4,7 +4,7 @@
 	export let fileName;
 	export let alt;
 
-	let imageSource = '/images/' + fileName;
+	let imageSource = "/images/" + fileName;
 </script>
 
 <figure class={size}>
@@ -34,33 +34,10 @@
 	.size-3 img,
 	.size-4 img {
 		width: 100%;
+	}
+
+	.size-1 img,
+	.size-2 img {
 		border-radius: 30px;
-	}
-
-    /* HOME IMAGE */
-
-    
-
-	.tall {
-		display: none;
-	}
-
-	.wide {
-		max-width: 100%;
-		max-height: 85vh;
-		margin: auto;
-	}
-
-	@media only screen and (orientation: portrait) {
-		.wide {
-			display: none;
-		}
-
-		.tall {
-			max-width: 100%;
-			max-height: 85vh;
-			margin: auto;
-			display: block;
-		}
 	}
 </style>
