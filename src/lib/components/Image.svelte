@@ -1,43 +1,41 @@
 <!-- Image.svelte -->
 <script>
-	export let size;
+	export let css;
 	export let fileName;
 	export let alt;
+	export let description = "";
 
 	let imageSource = "/images/" + fileName;
 </script>
 
-<figure class={size}>
-	<img src={imageSource} {alt} />
-</figure>
+<img class={css} src={imageSource} {alt} />
+<p class="little description">{description}</p>
 
-<style>
-	/*FIGURES*/
-	.size-1 {
-		grid-column: 4 / 5;
+
+<style type="scss">
+	.logo {
+		max-height: 3rem;
 	}
 
-	.size-2 {
-		grid-column: 3 / 6;
+	.index {
+		width: calc(100% - 20px);
+		float: right;
 	}
 
-	.size-3 {
-		grid-column: 2 / 7;
-	}
-
-	.size-4 {
-		grid-column: 1 / 8;
-	}
-
-	.size-1 img,
-	.size-2 img,
-	.size-3 img,
-	.size-4 img {
+	.default {
 		width: 100%;
+		border-radius: 10px;
 	}
 
-	.size-1 img,
-	.size-2 img {
-		border-radius: 30px;
+	.medium {
+		width: 75%;
+		max-width: 30rem;
+		display: block;
+		margin: 0 auto;
 	}
+
+	.description {
+		text-align: center;
+	}
+
 </style>

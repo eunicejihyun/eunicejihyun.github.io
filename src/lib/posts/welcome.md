@@ -1,11 +1,10 @@
 ---
 title: welcome
 date: 2020.01.30
-tags: [hmm]
-highlight: true
+tags: [featured]
 ---
 
-There is nothing more humbling to me than walking through a big city amidst all the hustle and bustle. It’s then that I’m reminded I am one of 7 billion+ people on this planet – no more or less significant than the rest.
+There is nothing more humbling to me than walking through a big city amidst all the hustle and bustle. It’s then that I’m reminded I am one of 7+ billion people on this planet – no more or less significant than the rest.
 
 Since we are stuck living our own lives all the time, our problems can seem bigger than that of others, our opinions more accurate, and our emotions more important. Being just “another” in a crowd helps me realize that everyone, in their individual realities, are experiencing the joys and struggles of being human too.
 

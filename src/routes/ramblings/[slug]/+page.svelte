@@ -1,5 +1,5 @@
 <script>
-	import Tags from '$lib/components/Tags.svelte';
+	import Tags from "$lib/components/Tags.svelte";
 	export let data;
 	const { title, content, date, tags } = data;
 </script>
@@ -11,6 +11,19 @@
 <article>
 	<h1>{title}</h1>
 	<svelte:component this={content} />
-	<time>{date}</time>
-	<Tags {tags} />
+	<div class="details">
+		<time>{date}</time>
+		<br />
+		<Tags {tags} />
+	</div>
 </article>
+
+<style>
+	.details * {
+		float: right;
+	}
+
+	.details {
+		font-size: 0.85rem;
+	}
+</style>

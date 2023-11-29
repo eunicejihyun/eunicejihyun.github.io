@@ -1,19 +1,8 @@
 ---
 title: children & incentives
 date: 2020.02.01
-tags: [lighthearted]
-highlight: true
+tags: [lighthearted, featured]
 ---
-
-<script>
-	import Image from '$lib/components/Image.svelte';
-</script>
-
-<Image
-    size="size-1"
-    fileName="cooler_than_you.png"
-    alt="A young Eunice leaning against a bar cart while sipping on a yogurt drink."
-/>
 
 It’s common for Korean parents to send their children to tutoring centers. It’s likely fueled by Korea’s extremely competitive academic culture, but I think for Korean-American parents it’s because oftentimes they cannot provide the same academic support at home that native English-speaking parents can.
 

@@ -1,8 +1,7 @@
 ---
 title: is this adulting?
 date: 2020.03.22
-tags: [srsly]
-highlight: true
+tags: [srsly, featured]
 ---
 
 Saturday night found me in a one-piece kneeling over a bathtub of soaking laundry, listening to Goodness of God, and just weeping.

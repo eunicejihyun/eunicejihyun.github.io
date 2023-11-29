@@ -1,8 +1,7 @@
 ---
 title: my aunt kay
 date: 2020.02.04
-tags: [hmm]
-highlight: false
+tags: [etc]
 ---
 
 My aunt is the kindest person I have ever met. She is an 80-something Korean woman whose early years were marred by the Korean war. Being the oldest daughter in her family, she had to grow up far more quickly than a child should.

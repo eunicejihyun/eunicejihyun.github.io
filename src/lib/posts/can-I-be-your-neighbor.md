@@ -2,7 +2,6 @@
 title: can I be your neighbor?
 date: 2020.01.31
 tags: [work]
-highlight: false
 ---
 
 This morning, I went to a business meeting with a very important client (tbh I was very late – my bad). We like to meet in a cramped office in our pajamas (which we have affectionately dubbed our life’s uniform) and discuss business while munching on tasteless health snacks that the matriarch of our family purchases from Costco.

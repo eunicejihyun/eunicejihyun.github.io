@@ -2,7 +2,6 @@
 title: train out of busan
 date: 2020.04.04
 tags: [lighthearted]
-highlight: false
 ---
 
 A couple of years ago when I was traveling through South Korea, I decided to take a day trip to Busan with a friend, whom I will call “Kate”. Since Kate is fluent in Korean, she was in charge of navigating around the city. However, she confessed early on that she was 길치 (gil-chi), meaning she has a terrible sense of direction. I didn’t think twice about it because she works in intelligence.

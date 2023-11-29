@@ -1,51 +1,46 @@
 <!-- Header.svelte -->
+<script>
+	import Image from "$lib/components/Image.svelte";
+	import NewTabLink from "$lib/components/NewTabLink.svelte";
+	import { onMount } from 'svelte';
+
+	function closeNavbar() {
+		document.getElementById("check").checked = false;
+	}
+
+	onMount(() => {
+		setTimeout(function () {
+			document.body.className = "";
+		}, 500);
+	});
+</script>
 
 <header>
-	<nav>
-		<a class="logo" href="/"><img src="../images/logo.png" height="30rem" alt="logo" /></a>
-		<a class="navItem" href="/ramblings">ramblings</a>
-	</nav>
+	<input id="check" class="menu-icon menu-icon__checkbox" type="checkbox" />
+	<div class="menu-icon hamburger">
+		<span />
+		<span />
+	</div>
+
+	<a class="logo" href="/" on:click={closeNavbar}>
+		<Image css="logo" fileName="E.png" alt="logo" />
+	</a>
+
+	<div id="navbox">
+		<div class="links navigation">
+			<a href="/about" on:click={closeNavbar}>About</a>
+			<a href="/ramblings" on:click={closeNavbar}>Writings</a>
+			<a href="/portfolio" class="hidden" on:click={closeNavbar}>Portfolio</a>
+		</div>
+
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<div class="links socials" on:click={closeNavbar}>
+			<a href="mailto:eunicejihyun@gmail.com">Email</a>
+			<NewTabLink
+				link="https://linkedin.com/in/eunicejihyun"
+				text="LinkedIn"
+			/>
+			<NewTabLink link="https://github.com/eunicejihyun" text="Github" />
+		</div>
+	</div>
 </header>
-
-<style>
-	nav {
-		padding-bottom: 0.5rem;
-	}
-
-	a {
-		text-decoration: none;
-	}
-
-	.logo {
-		display: inline-block;
-		padding: 0.6rem 0.9rem 0;
-		vertical-align: top;
-	}
-
-	.logo:hover {
-		background: none;
-	}
-
-	nav {
-		background: white;
-		position: fixed;
-		text-align: center;
-		top: 0;
-		left: 0;
-		width: 100%;
-	}
-
-	.navItem {
-		color: #303030;
-		display: inline-block;
-		font-weight: bold;
-		padding: 0.75rem 0.9rem 0;
-	}
-
-	.navItem:hover,
-	.navItem:active,
-	.navItem:focus {
-		background: none;
-		color: #7a002e;
-	}
-</style>

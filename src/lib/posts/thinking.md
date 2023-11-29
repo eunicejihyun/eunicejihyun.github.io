@@ -1,19 +1,16 @@
 ---
 title: thinking
 date: 2021.01.28
-tags: [hmm]
-highlight: false
+tags: [etc]
 ---
 
-<center>
-“Left. Right! LEFT…”<br> 
-<em>
-An object hits a wall.<br> 
+<p class="center">
+“Left. Right! LEFT…” <br>
+<span class="italic">An object hits a wall.<br> 
 A girl swears.<br>  
-A pause follows.<br> 
-</em>
+A pause follows.<br> </span>
 “It’s because you were looking.”
-</center>
+</p>
 
 Today, I tried to learn how to juggle before an audience of one unamused spectator: Yonggi, my sister’s husky. Before you begin to think that I’ve lost my mind, let me explain. Typically, when I’m in thinking mode, I like to be “productive”. This may be a universal preference. We hear of people having their best thoughts in the shower or on a walk. I needed a new activity to occupy myself while thinking, and I figured that would be juggling. _Obviously._
 
@@ -31,7 +28,7 @@ The second one called Strengths Profile identified this as my top “strength”
 
 **Humility – You are happy to stay in the background, giving others credit for your contributions.**
 
-<em align="center">A girl swears.</em>
+<p class="center italic">A girl swears.</p>
 
 To explain why this result plagues my thoughts, we have to replay part of a conversation I had with my soul sister two months ago.
 

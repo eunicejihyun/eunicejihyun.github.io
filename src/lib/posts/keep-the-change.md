@@ -2,7 +2,6 @@
 title: keep the change
 date: 2020.02.11
 tags: [lighthearted]
-highlight: false
 ---
 
 During my last semester of college, I was an introvert on a self-improvement spree. I decided to do things that were outside of my comfort zone so in addition to taking a public speaking class and joining group therapy, I interviewed for a job at a restaurant called Zip Chicken. This was my interview with the owner, Han:

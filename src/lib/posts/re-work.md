@@ -1,8 +1,7 @@
 ---
 title: re:work
 date: 2021.03.01
-tags: [work, longform]
-highlight: true
+tags: [work, featured]
 ---
 <script>
     import NewTabLink from "$lib/components/NewTabLink.svelte";

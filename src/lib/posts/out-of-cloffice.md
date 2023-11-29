@@ -2,10 +2,9 @@
 title: out of cloffice
 date: 2020.03.15
 tags: [work]
-highlight: false
 ---
 
-<i align="center">♫ Something has changed within me. Something is not the same. ♫</i>
+<p class="center">♫ Something has changed within me. Something is not the same. ♫</p>
 
 For a long time, I believed in others more than myself. It had nothing to do with their accomplishments, age, or confidence. It was just easier for me to see greatness and potential in other people.
 

@@ -1,8 +1,7 @@
 ---
 title: street wisdom
 date: 2020.02.07
-tags: [hmm]
-highlight: false
+tags: [etc]
 ---
 
 One time in my second year of college, I had just missed the city bus at one of those stops along the highway where the bus comes every 20 minutes or so. There happened to be a sign spinner about 100 ft from the bus stop. Although, he was doing the best he could, I think we both knew that his efforts weren’t going to pay off anyway. Who in their right mind would even try to read his sign when they’re going 50 mph and the sign is spinning?

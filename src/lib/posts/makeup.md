@@ -1,8 +1,7 @@
 ---
 title: makeup
 date: 2020.02.06
-tags: [hmm]
-highlight: false
+tags: [etc]
 ---
 
 There was a time last year when I felt really unfeminine. I decided to purchase makeup in the middle of the night, which, honestly, is not as simple as it looks.

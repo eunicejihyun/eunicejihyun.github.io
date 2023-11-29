@@ -2,7 +2,6 @@
 title: college textbooks
 date: 2020.02.02
 tags: [lighthearted]
-highlight: false
 ---
 
 One rainy evening, I made my way to the bookstore with a backpack full of expensive textbooks that I needed to sell in order to purchase more expensive textbooks the following semester.

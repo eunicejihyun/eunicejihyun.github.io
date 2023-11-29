@@ -2,7 +2,6 @@
 title: behind the wheel
 date: 2020.02.15
 tags: [lighthearted]
-highlight: false
 ---
 
 One of my more colorful memories is of the behind-the-wheel training that I completed during my senior year of high school. The course was led by a middle-aged man who I will call Mr. Nam.

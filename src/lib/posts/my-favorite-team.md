@@ -1,8 +1,7 @@
 ---
 title: my favorite team
 date: 2020.02.18
-tags: [hmm]
-highlight: false
+tags: [etc]
 ---
 
 It was a rainy start to the weekend. After driving home from work, I stepped into my parents’ home to hear the sound of rain amplified. How odd, I thought until I looked over to see water pouring down from the top floor balcony like a waterfall.

@@ -11,7 +11,6 @@
 
 <style>
 	.tag {
-		font: 300 1rem/1.2 'Assistant', sans-serif;
 		color: #77b5fe;
 		padding: 0 0 0 10px;
 	}

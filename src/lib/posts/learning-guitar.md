@@ -2,7 +2,6 @@
 title: learning guitar
 date: 2020.09.25
 tags: [srsly]
-highlight: false
 ---
 
 Back in January, a group of us casually sang while someone played the guitar, and I found the experience to be incredibly captivating. I loved it, and the following week when we without it, I craved it.

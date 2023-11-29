@@ -1,13 +1,24 @@
 ---
 title: dear data 01
 date: 2022.01.03
-tags: [imadethis, longform]
-highlight: true
+tags: [data, featured]
 ---
 
 <script>
     import Image from "$lib/components/Image.svelte";
     import NewTabLink from "$lib/components/NewTabLink.svelte";
+
+  import { Carousel, CarouselControl, CarouselItem } from 'sveltestrap';
+
+  const items = [
+    'data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_15ba800aa1d%20text%20%7B%20fill%3A%23555%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_15ba800aa1d%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22285.921875%22%20y%3D%22218.3%22%3EFirst%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E',
+    'data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_15ba800aa20%20text%20%7B%20fill%3A%23444%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_15ba800aa20%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23666%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22247.3203125%22%20y%3D%22218.3%22%3ESecond%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E',
+    'data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_15ba800aa21%20text%20%7B%20fill%3A%23333%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_15ba800aa21%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23555%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22277%22%20y%3D%22218.3%22%3EThird%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E'
+  ];
+  let activeIndex = 0;
+
+
+
 </script>
 
 
@@ -23,16 +34,16 @@ Ben and I were colleagues at thredUP and we started a short-lived book club toge
 
 I present to you, our first edition of Dear Data postcards.
 
-<div align="center">* * *</div>
+<div class="divider">* * *</div>
 
 <Image 
-    size = "size-1"
+    css = "medium"
     fileName = "ek01a.png"
     alt = "Eunice's postcard (front)"
     />
 
 <Image 
-    size = "size-2"
+    css = "default"
     fileName = "ek01b.png"
     alt = "Eunice's postcard (back)"
     />
@@ -51,13 +62,13 @@ It was challenging to settle on a design because I wanted it to be both sensible
 
 Each visual element represents data pertaining to one individual on a particular day (i.e., A right triangle represents the number of words sent by one person on a single day). Visual elements corresponding to the same day were grouped and arranged to give the impression of two people sitting back-to-back.
 
-| **Attribute**                 | **Represented By**          |
-|---------------------------|-------------------------|
-|  Word count               | Right triangle (size)   |
-| Emoji/Gif count           | Circle (size)           |
-| Full-stop count           | Dots (#)                |
-| Question mark count       | Color (key on postcard) |
-|  Exclamation point count  | Stripes (#)             |
+| **Attribute**           | **Represented By**      |
+| ----------------------- | ----------------------- |
+| Word count              | Right triangle (size)   |
+| Emoji/Gif count         | Circle (size)           |
+| Full-stop count         | Dots (#)                |
+| Question mark count     | Color (key on postcard) |
+| Exclamation point count | Stripes (#)             |
 
 
 **Word Count.** For the right triangles, I made each pair have the same base length so it was easier to compare data for that day. I decided against standardizing the base length across the board because the daily word count varied drastically.
@@ -67,7 +78,7 @@ Each visual element represents data pertaining to one individual on a particular
 **Emojis & Gifs.** I wanted the circles to look balanced for aesthetic purposes while upholding a semblance of visual integrity. This was challenging because I didn’t send a lot of emojis/gifs whereas my co-texter sent them frequently. When drawing the circles, I used Fibonacci numbers to determine the radius of the circle (see table below). I’m satisfied with the outcome because the method still allows comparisons to be drawn for each day.
 
 | Emoji & Gif count | Circle radius (mm) |
-|-------------------|--------------------|
+| ----------------- | ------------------ |
 | 0                 | 0                  |
 | 1                 | 1                  |
 | 2                 | 2                  |
@@ -79,11 +90,12 @@ Each visual element represents data pertaining to one individual on a particular
 
 Favorite emojis? Mine was 🙂 (3 instances out of 24 total emojis) and my co-texter’s was 😂 (22 out of 102 total emojis). I’d like to think I’m hilarious.
 
-<div align="center" id="bg01">* * *</div>
+
+<div class="divider" id="bg01">* * *</div>
 
 
 <Image 
-    size = "size-2"
+    css = "default"
     fileName = "bg01a.png"
     alt = "Ben's postcard (front)"
     />
@@ -91,7 +103,7 @@ Favorite emojis? Mine was 🙂 (3 instances out of 24 total emojis) and my co-te
 <div align="center">Shared with Ben's permission</div>
 
 <Image 
-    size = "size-2"
+    css = "default"
     fileName = "bg01b.png"
     alt = "Ben's postcard (back)"
     />
@@ -111,6 +123,6 @@ Ben and I agree that the fun part of looking at these postcards is interpreting 
 
 Please note: I wanted to request a write-up to accompany "Out + About", but felt it would be too big of an ask. Can't take advantage of Ben's kindness - especially if I want a second run of Dear Data!
 
-<div align="center">* * *</div>
+<div class="divider">* * *</div>
 
 We hope you enjoyed our postcards and are inspired to make your own!

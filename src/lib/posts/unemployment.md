@@ -2,7 +2,6 @@
 title: unemployment
 date: 2020.02.08
 tags: [work]
-highlight: false
 ---
 
 <script>
@@ -11,9 +10,10 @@ highlight: false
 </script>
 
 <Image
-    size="size-1"
+    css="medium"
     fileName="pottery.jpg"
     alt="Eunice making pottery."
+    description="Trimming bowls to make UFO cookie jars"
 />
 
 Some people seem to think that unemployment is simply <NewTabLink text="filming claymation videos" link="https://www.youtube.com/watch?v=2jqKiVHS6x4" /> while listening to <NewTabLink text="Hard Times by Paramore" link="https://www.youtube.com/watch?v=AEB6ibtdPZc" />. It totally can be, and that would be fine! However, I’d like to believe that, in the end, it serves as a time of rest, reflection, and exploration for most people.

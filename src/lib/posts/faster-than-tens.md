@@ -2,7 +2,6 @@
 title: "it's faster than tens"
 date: 2021.01.25
 tags: [work]
-highlight: false
 ---
 
 <script>

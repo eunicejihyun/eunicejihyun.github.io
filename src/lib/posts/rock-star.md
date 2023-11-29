@@ -1,8 +1,7 @@
 ---
 title: rock star
 date: 2020.03.04
-tags: [hmm]
-highlight: false
+tags: [etc]
 ---
 
 In a previous post, I mentioned going through a time of intentional personal development. Basically, it was several months of putting myself in stress-inducing situations to become the person I wanted to be (without hating myself for doing so).

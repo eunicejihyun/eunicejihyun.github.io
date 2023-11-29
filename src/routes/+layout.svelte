@@ -1,14 +1,13 @@
 <!-- +layout.svelte -->
 <script>
-	import Header from '../lib/components/Header.svelte';
-	import Footer from '../lib/components/Footer.svelte';
-	import '$lib/styles/styles.css'
+	import Header from "../lib/components/Header.svelte";
+	import Footer from "../lib/components/Footer.svelte";
+	import "$lib/styles/styles.scss";
 </script>
 
 <Header />
-<div class="main">
-	<main>
+<main>
 		<slot />
-	</main>
-</div>
+</main>
+
 <Footer />

@@ -2,7 +2,6 @@
 title: try
 date: 2020.02.12
 tags: [srsly]
-highlight: false
 ---
 
 Last week, I was suddenly overwhelmed with feelings of inadequacy and apathy. Wanting to escape thoughts of It can’t be you, and You’re not good enough, I slept all day. I was contemplating whether to go back to sleep when a single thought fluttered by.
