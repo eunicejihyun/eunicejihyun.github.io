@@ -19,28 +19,28 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
-	<meta http-equiv="content-security-policy" content="">
-		<link href="../app/immutable/assets/_layout-d304aa69.css" rel="stylesheet">
-		<link href="../app/immutable/assets/Image-d25362a4.css" rel="stylesheet">
-		<link href="../app/immutable/assets/_page-5f14441d.css" rel="stylesheet">
-		<link href="../app/immutable/assets/Offcanvas-60614438.css" rel="stylesheet">
-		<link rel="modulepreload" href="../app/immutable/start-ad43fab4.js">
-		<link rel="modulepreload" href="../app/immutable/chunks/index-ec674c43.js">
-		<link rel="modulepreload" href="../app/immutable/chunks/index-407d6860.js">
-		<link rel="modulepreload" href="../app/immutable/components/pages/_layout.svelte-22e55c7e.js">
-		<link rel="modulepreload" href="../app/immutable/chunks/Image-a4ad5b38.js">
-		<link rel="modulepreload" href="../app/immutable/chunks/NewTabLink-9558de89.js">
-		<link rel="modulepreload" href="../app/immutable/modules/pages/_layout.js-9cbb603b.js">
-		<link rel="modulepreload" href="../app/immutable/chunks/_layout-da46b06b.js">
-		<link rel="modulepreload" href="../app/immutable/components/pages/ramblings/_slug_/_page.svelte-b3f1c654.js">
-		<link rel="modulepreload" href="../app/immutable/modules/pages/ramblings/_slug_/_page.js-81ce4b57.js">
-		<link rel="modulepreload" href="../app/immutable/chunks/_page-654a4d82.js"><title>welcome</title><!-- HEAD_svelte-1az6e94_START --><!-- HEAD_svelte-1az6e94_END -->
+	
+		<link href="../app/immutable/assets/0.d304aa69.css" rel="stylesheet">
+		<link href="../app/immutable/assets/Image.d25362a4.css" rel="stylesheet">
+		<link href="../app/immutable/assets/6.5f14441d.css" rel="stylesheet">
+		<link href="../app/immutable/assets/Offcanvas.60614438.css" rel="stylesheet">
+		<link rel="modulepreload" href="../app/immutable/entry/start.4099f3db.js">
+		<link rel="modulepreload" href="../app/immutable/chunks/index.c51c6ad9.js">
+		<link rel="modulepreload" href="../app/immutable/chunks/index.1d2d90dd.js">
+		<link rel="modulepreload" href="../app/immutable/entry/app.81cec50d.js">
+		<link rel="modulepreload" href="../app/immutable/nodes/0.e23819a5.js">
+		<link rel="modulepreload" href="../app/immutable/chunks/Image.f0d22d8f.js">
+		<link rel="modulepreload" href="../app/immutable/chunks/NewTabLink.105324aa.js">
+		<link rel="modulepreload" href="../app/immutable/nodes/6.5513a6ee.js">
+		<link rel="modulepreload" href="../app/immutable/chunks/Offcanvas.svelte_svelte_type_style_lang.8f08610b.js">
+		<link rel="modulepreload" href="../app/immutable/chunks/TabPane.ca2e60e5.js"><title>welcome</title><!-- HEAD_svelte-1az6e94_START --><!-- HEAD_svelte-1az6e94_END -->
 </head>
 
 <!-- <body data-sveltekit-preload-data="hover" class="preload"> -->
 
 <body>
 	<div style="display: contents">
+
 
 
 
@@ -92,25 +92,35 @@
 
 
 
-<footer>Code by Eunice © 2023</footer>
+<footer>Code by Eunice © 2024</footer>
 
 
-		<script type="module" data-sveltekit-hydrate="1xprc6o">
-			import { start } from "../app/immutable/start-ad43fab4.js";
+			
+			<script>
+				{
+					__sveltekit_1ebcgre = {
+						base: new URL("..", location).pathname.slice(0, -1),
+						env: {}
+					};
 
-			start({
-				env: {},
-				paths: {"base":"","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="1xprc6o"]').parentNode,
-				version: "1701894862716",
-				hydrate: {
-					node_ids: [0, 6],
-					data: [null,null],
-					form: null
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("../app/immutable/entry/start.4099f3db.js"),
+						import("../app/immutable/entry/app.81cec50d.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 6],
+							data,
+							form: null,
+							error: null
+						});
+					});
 				}
-			});
-		</script>
-	</div>
+			</script>
+		</div>
 
 	<script>
 		today = new Date();
